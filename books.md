@@ -1,1 +1,5 @@
- * [OpenStax Textbooks](https://cnx.org)
+* [OpenStax Textbooks](https://cnx.org)
+* [Free Books](https://openstax.org/)
+* [Libretexts: Online Textbook Platform](https://libretexts.org/)
+* [Libretexts: Math books](https://math.libretexts.org/)
+* [Edfinity: homework system](https://edfinity.com/)
