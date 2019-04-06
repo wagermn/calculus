@@ -5,6 +5,7 @@
 * [Free Books](https://openstax.org/)
 * [Libretexts: Online Textbook Platform](https://libretexts.org/)
 * [Libretexts: Math books](https://math.libretexts.org/)
+* [Pre Textbook](https://pretextbook.org/gallery.html)
 
 ## 论文
 * [单叶双曲面与现代建筑](http://www.global-sci.org/uploads/Issue/MC/shortpdf/v9n4/94_101.pdf)
