@@ -1,7 +1,10 @@
 # 高等数学课程资料
 
 ## 在线工具
-
+* [Desmos](https://www.desmos.com/calculator)
+* [Geogebra](https://www.geogebra.org/apps)
+* [Wolgram Alpha](https://www.wolframalpha.com)
+* [Wolfram Open Cloud](https://www.open.wolframcloud.com)
 
 ## 授课课件（PDF格式）
 
