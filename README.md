@@ -9,8 +9,8 @@
 ## 授课课件（PDF格式）
 
 ### 第一章 函数与连续
-1. [映射与函数](sections/0101_映射与函数.pdf) [作业参考答案](answers/0101_answer.pdf)
-2. [数列的极限](sections/0102_数列的极限.pdf) [作业参考答案](answers/0101_answer.pdf)
+1. [映射与函数](sections/0101_映射与函数.pdf)、[作业参考答案](answers/0101_answer.pdf)
+2. [数列的极限](sections/0102_数列的极限.pdf)、[作业参考答案](answers/0102_answer.pdf)
 3. [函数的极限](sections/0103_函数的极限.pdf)
 4. [无穷小与无穷大](sections/0104_无穷小与无穷大.pdf)
 5. [极限运算法则](sections/0105_极限运算法则.pdf)
