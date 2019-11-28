@@ -31,10 +31,11 @@
 1. [微分中值定理](sections/0301_微分中值定理.pdf)
 2. [洛必达法则](sections/0302_洛必达法则.pdf)、[作业参考答案](answers/0302_answer.pdf)
 3. [泰勒公式](sections/0303_泰勒公式.pdf)
-4. [函数的单调性与曲线的凹凸性](sections/0304_函数的单调性与曲线的凹凸性.pdf)、[作业参考答案](answers/0304_answer.pdf)
-5. [函数的极值与最大值最小值](sections/0305_函数的极值与最大值最小值.pdf)
+4. [函数的单调性与曲线的凹凸性](sections/0304_函数的单调性与曲线的凹凸性.pdf)、[作业参考答案](answers/0304_answer.pdf)、[作业参考答案](answers/0304_answer.pdf)
+5. [函数的极值与最大值最小值](sections/0305_函数的极值与最大值最小值.pdf)、[作业参考答案](answers/0305_answer.pdf)
 6. [函数图形的描绘](sections/0306_函数图形的描绘.pdf)
 
 ### 第四章 不定积分
-1. [不定积分的概念与性质](sections/0401_不定积分的概念与性质.pdf)
+1. [不定积分的概念与性质](sections/0401_不定积分的概念与性质.pdf)、[作业参考答案](answers/0401_answer.pdf)
 2. [换元积分法](sections/0402_换元积分法.pdf)
+3. [分部积分法](sections/0403_分部积分法.pdf)
