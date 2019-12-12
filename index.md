@@ -38,9 +38,10 @@
 ### 第四章 不定积分
 1. [不定积分的概念与性质](sections/0401_不定积分的概念与性质.pdf)、[作业参考答案](answers/0401_answer.pdf)
 2. [换元积分法](sections/0402_换元积分法.pdf)、[作业参考答案](answers/0402_answer.pdf)
-3. [分部积分法](sections/0403_分部积分法.pdf)
+3. [分部积分法](sections/0403_分部积分法.pdf)、[作业参考答案](answers/0403_answer.pdf)
 
 ### 第五章 定积分
 1. [定积分的概念与性质](sections/0501_定积分的概念与性质.pdf)
 2. [微积分基本公式](sections/0502_微积分基本公式.pdf)
 3. [定积分的换元法和分部积分法](sections/0503_定积分的换元法和分部积分法.pdf)
+4. [反常积分](sections/0504_反常积分.pdf)
