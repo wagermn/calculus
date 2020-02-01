@@ -4,81 +4,54 @@
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-    #myOnlineCamera video{width:320px;height:240px;margin:15px;float:left;}
-    #myOnlineCamera canvas{width:320px;height:240px;margin:15px;float:left;}
-    #myOnlineCamera button{clear:both;margin:30px;}
+        .booth {
+            width: 400px;
+            background-color: #ccc;
+            border: 10px solid #ddd;
+            margin: 0 auto;
+        }
+        .booth-capture-button {
+            display: block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: cornflowerblue;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+        }
     </style>
   </head>
   <body>
     <h1> Image from Camera </h1>
-    <div id="myOnlineCamera">
-        <video></video>
-        <canvas></canvas>
-        <button>Take Photo!</button>
+
+    <div class="booth">
+        <video id="video" width="400" height="300"></video>
+        <a href="#" id="caption" class="booth-capture-button">拍照</a>
+        <canvas id="canvas" width="400" height="300"></canvas>
     </div>
+
     <script>
+      (function(){
+        var video = document.getElementById('video'),
+            canvas = document.getElementById('canvas'),
+            context = canvas.getContext('2d'),
+            vendorUrl = windown.URL || window.webkitURL;
+        navigator.getMedia = navigator.getUserMedia || 
+                             navigator.webkitGetUserMedia;
+        navigator.getMedia({
+            video: true,
+            audio: false
+        }, function(stream) {
+            video.src = vendorUrl.createObjectURL(stream);
+            video.play();
+        }, function(erroe) {
+            // An erroe occured
+        });
 
-var videoObj    = { "video": true },
-    errBack        = function(error){
-        // alert("Video capture error: ", error.code);
-    };
-
-// Ask the browser for permission to use the Webcam
-if(navigator.getUserMedia){                    // Standard
-    navigator.getUserMedia(videoObj, startWebcam, errBack);
-}else if(navigator.webkitGetUserMedia){        // WebKit
-    navigator.webkitGetUserMedia(videoObj, startWebcam, errBack);
-}else if(navigator.mozGetUserMedia){        // Firefox
-    navigator.mozGetUserMedia(videoObj, startWebcam, errBack);
-};
-
-function startWebcam(stream){
-
-    var myOnlineCamera    = getElementById('myOnlineCamera'),
-        video            = myOnlineCamera.querySelectorAll('video'),
-        canvas            = myOnlineCamera.querySelectorAll('canvas');
-
-    video.width = video.offsetWidth;
-
-    if(navigator.getUserMedia){                    // Standard
-        video.src = stream;
-        video.play();
-    }else if(navigator.webkitGetUserMedia){        // WebKit
-        video.src = window.webkitURL.createObjectURL(stream);
-        video.play();
-    }else if(navigator.mozGetUserMedia){        // Firefox
-        video.src = window.URL.createObjectURL(stream);
-        video.play();
-    };
-
-    // Click to take the photo
-    $('#webcam-popup .takephoto').click(function(){
-        // Copying the image in a temporary canvas
-        var temp = document.createElement('canvas');
-
-        temp.width  = video.offsetWidth;
-        temp.height = video.offsetHeight;
-
-        var tempcontext = temp.getContext("2d"),
-            tempScale = (temp.height/temp.width);
-
-        temp.drawImage(
-            video,
-            0, 0,
-            video.offsetWidth, video.offsetHeight
-        );
-
-        // Resize it to the size of our canvas
-        canvas.style.height    = parseInt( canvas.offsetWidth * tempScale );
-        canvas.width        = canvas.offsetWidth;
-        canvas.height        = canvas.offsetHeight;
-        var context        = canvas.getContext("2d"),
-            scale        = canvas.width/temp.width;
-        context.scale(scale, scale);
-        context.drawImage(bigimage, 0, 0);
-    });
-};
-
-</script>
+        document.getElementById('capture').addEventListener('click', function() {
+            context.drawImage(video, 0,0, 400, 300);
+        });
+      })();
+    </script>
   </body>
 <html>
