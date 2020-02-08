@@ -1,14 +1,31 @@
-# 高等数学课程资料
+# 高等数学A（II）
+## 教学日历
 
-## 在线工具
-* [Desmos](https://www.desmos.com/calculator)
-* [Geogebra](https://www.geogebra.org/apps)
-* [Wolgram Alpha](https://www.wolframalpha.com)
-* [Wolfram Open Cloud](https://www.open.wolframcloud.com)
+| 周次 | 日期 | 教学章节 |
+|:----:|:----:|----------|
+| 1    | 02.13—02.19 | 7.1, 7.2, 7.3 |
+| 2    | 02.20—02.26 | 7.4, 7.5, 7.6 |
+| 3    | 02.27—03.04 | 7.7, 7.8 |
+| 4    | 03.05—03.11 | 8.1, 8.2 |
+| 5    | 03.12—03.18 | 8.3, 8.4 |
+| 6    | 03.19—03.25 | 8.5, 8.6 |
+| 7    | 03.26—04.01 | 9.1, 9.2 |
+| 8    | 04.02—04.08 | 9.3, 9.4, 9.5 |
+| 9    | 04.09—04.15 | 9.6, 9.7 |
+| 10   | 04.16—04.22 | 9.8 |
+| 11   | 04.23—04.29 | 10.1, 10.2 |
+| 12   | 04.30—05.06 | 10.2, 10.3 |
+| 13   | 05.07—05.13 | 10.3, 10.4 |
+| 14   | 05.14—05.20 | 12.1, 12.2 |
+| 15   | 05.21—05.27 | 12.2, 12.3, 12.4 |
+| 16   | 05.28—06.04 | 12.7, 12.8 |
+
+## 教学说明
+
 
 ## 授课课件（PDF格式）
 
-### 第一章 函数与连续
+### 第七章 函数与连续
 1. [映射与函数](sections/0101_映射与函数.pdf)、[作业参考答案](answers/0101_answer.pdf)
 2. [数列的极限](sections/0102_数列的极限.pdf)、[作业参考答案](answers/0102_answer.pdf)
 3. [函数的极限](sections/0103_函数的极限.pdf)、[作业参考答案](answers/0103_answer.pdf)
@@ -20,28 +37,9 @@
 9. [连续函数的运算与初等函数的连续性](sections/0109_连续函数的运算与初等函数的连续性.pdf)
 10. [闭区间上连续函数的性质](sections/0110_闭区间上连续函数的性质.pdf)
 
-### 第二章 导数与微分
-1. [导数概念](sections/0201_导数概念.pdf)、[作业参考答案](answers/0201_answer.pdf)
-2. [函数的求导法则](sections/0202_函数的求导法则.pdf)、[作业参考答案](answers/0202_answer.pdf)
-3. [高阶导数](sections/0203_高阶导数.pdf)、[作业参考答案](answers/0203_answer.pdf)
-4. [隐函数及由参数方程所确定的函数的导数 相关变化率](sections/0204_隐函数及由参数方程所确定的函数的导数-相关变化率.pdf)、[作业参考答案](answers/0204_answer.pdf)
-5. [函数的微分](sections/0205_函数的微分.pdf)、[作业参考答案](answers/0205_answer.pdf)
 
-### 第三章 微分中值定理与导数的应用
-1. [微分中值定理](sections/0301_微分中值定理.pdf)
-2. [洛必达法则](sections/0302_洛必达法则.pdf)、[作业参考答案](answers/0302_answer.pdf)
-3. [泰勒公式](sections/0303_泰勒公式.pdf)
-4. [函数的单调性与曲线的凹凸性](sections/0304_函数的单调性与曲线的凹凸性.pdf)、[作业参考答案](answers/0304_answer.pdf)
-5. [函数的极值与最大值最小值](sections/0305_函数的极值与最大值最小值.pdf)、[作业参考答案](answers/0305_answer.pdf)
-6. [函数图形的描绘](sections/0306_函数图形的描绘.pdf)
-
-### 第四章 不定积分
-1. [不定积分的概念与性质](sections/0401_不定积分的概念与性质.pdf)、[作业参考答案](answers/0401_answer.pdf)
-2. [换元积分法](sections/0402_换元积分法.pdf)、[作业参考答案](answers/0402_answer.pdf)
-3. [分部积分法](sections/0403_分部积分法.pdf)、[作业参考答案](answers/0403_answer.pdf)
-
-### 第五章 定积分
-1. [定积分的概念与性质](sections/0501_定积分的概念与性质.pdf)
-2. [微积分基本公式](sections/0502_微积分基本公式.pdf)、[作业参考答案](answers/0502_answer.pdf)
-3. [定积分的换元法和分部积分法](sections/0503_定积分的换元法和分部积分法.pdf)
-4. [反常积分](sections/0504_反常积分.pdf)
+## 在线工具
+* [Desmos](https://www.desmos.com/calculator)
+* [Geogebra](https://www.geogebra.org/apps)
+* [Wolgram Alpha](https://www.wolframalpha.com)
+* [Wolfram Open Cloud](https://www.open.wolframcloud.com)
